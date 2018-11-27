@@ -1,4 +1,35 @@
-/* styles.css */
-.link{
-    text-decoration: none;
-}
+.link {
+        text-decoration: none;
+        
+      }
+      .links{
+      
+              display: flex;
+              justify-content: space-between;
+        width: 50%;
+        padding: 8px 25px;
+      
+      }
+      .top{
+        
+      }
+      .toptitle {
+      
+          border-bottom: solid black 1px; 
+        width: 560px; 
+        
+      }
+      .image {
+        padding-top: 30px;
+              display: grid;
+              grid-template-columns: repeat(8, 1fr);
+              grid-template-rows: 8fr 1fr;
+      
+      }
+      .program {
+        margin-left: -23px;
+        font-size: 105px;
+        color: red;
+        
+      }
+      
